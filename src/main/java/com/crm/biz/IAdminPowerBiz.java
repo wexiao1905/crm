@@ -9,7 +9,7 @@ import com.crm.domain.Power;
  * @author apeHx
  *
  */
-public interface IPowerBiz {
+public interface IAdminPowerBiz {
 	/**
 	 * 查询权限列表	(包括下级权限)
 	 * @return	{@link com.crm.domain.Power}

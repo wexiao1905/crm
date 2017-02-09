@@ -8,7 +8,7 @@ import com.crm.util.Pages;
  * @author apeHx
  *
  */
-public interface INotifyBiz {
+public interface IAdminNotifyBiz {
 	/**
 	 * 查询公告信息
 	 * @param notifyTitle	公告标题

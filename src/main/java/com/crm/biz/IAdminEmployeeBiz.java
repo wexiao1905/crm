@@ -8,7 +8,7 @@ import com.crm.util.Pages;
  * @author apeHx
  *
  */
-public interface IEmployeeBiz {
+public interface IAdminEmployeeBiz {
 	/**
 	 * 查询员工信息
 	 * @param employeeName	员工名称

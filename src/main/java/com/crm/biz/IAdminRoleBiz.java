@@ -9,7 +9,7 @@ import com.crm.domain.Role;
  * @author apehx
  *
  */
-public interface IRoleBiz {
+public interface IAdminRoleBiz {
 	
 	/**
 	 * 查询角色列表

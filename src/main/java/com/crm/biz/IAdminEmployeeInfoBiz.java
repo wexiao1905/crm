@@ -7,7 +7,7 @@ import com.crm.domain.EmployeeInfo;
  * @author apeHx	
  *
  */
-public interface IEmployeeInfoBiz {
+public interface IAdminEmployeeInfoBiz {
 	/**
 	 * 查看个人信息
 	 * @param employeeId	员工ID

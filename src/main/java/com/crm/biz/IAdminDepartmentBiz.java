@@ -9,7 +9,7 @@ import com.crm.domain.Department;
  * @author apeHx
  *
  */
-public interface IDepartmentBiz {
+public interface IAdminDepartmentBiz {
 	/**
 	 * 查询组织结构信息
 	 * @param departmentName	组织结构名称(simpleName-简称查询 ，fullName-全称查询)
