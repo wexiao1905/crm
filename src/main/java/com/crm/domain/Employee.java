@@ -1,5 +1,7 @@
 package com.crm.domain;
 
+import com.crm.domain.base.Logger;
+
 /**
  * 员工信息
  * @author apeHx
@@ -13,7 +15,8 @@ public class Employee extends Logger {
 	private Integer status;			//状态（1-正常		2-禁用）
 	private Department department;	//所属部门（null-综合部门）
 	private Role role;				//角色身份（null-系统管理员）
-	private String remarks;			//备注信息
+	private String remarks;			//备注信息	
+	private Employee lead;			//领导
 	
 	public Integer getId() {
 		return id;
@@ -62,5 +65,11 @@ public class Employee extends Logger {
 	}
 	public void setRemarks(String remarks) {
 		this.remarks = remarks;
+	}
+	public Employee getLead() {
+		return lead;
+	}
+	public void setLead(Employee lead) {
+		this.lead = lead;
 	}
 }

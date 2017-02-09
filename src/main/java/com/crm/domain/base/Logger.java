@@ -1,7 +1,9 @@
-package com.crm.domain;
+package com.crm.domain.base;
 
 import java.io.Serializable;
 import java.util.Date;
+
+import com.crm.domain.Employee;
 
 /**
  * 操作记录

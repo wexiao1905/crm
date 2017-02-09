@@ -1,5 +1,6 @@
 package com.crm.domain;
 
+import com.crm.domain.base.Logger;
 import com.crm.domain.base.NotifyType;
 
 /**

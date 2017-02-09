@@ -2,6 +2,8 @@ package com.crm.domain;
 
 import java.util.List;
 
+import com.crm.domain.base.Logger;
+
 /**
  * 权限信息
  * @author apeHx

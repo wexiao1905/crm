@@ -1,4 +1,7 @@
 package com.crm.domain;
+
+import com.crm.domain.base.Logger;
+
 /**
  * 个人信息
  * @author apehx
