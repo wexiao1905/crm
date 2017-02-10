@@ -1,6 +1,6 @@
 package com.crm.biz;
 
-import com.crm.domain.Employee;
+import com.crm.domain.ws.hr.Employee;
 import com.crm.util.Pages;
 
 /**
@@ -13,21 +13,21 @@ public interface IAdminEmployeeBiz {
 	 * 查询员工信息
 	 * @param employeeName	员工名称
 	 * @param page			分页信息	{@link com.crm.util.Pages}
-	 * @return	{@link com.crm.domain.Employee}
+	 * @return	{@link com.crm.domain.ws.hr.Employee}
 	 */
 	Pages<Employee> selectEmployees(String employeeName,Pages<Employee> page);
 	
 	/**
 	 * 查询员工信息
 	 * @param employeeId	员工ID
-	 * @return	{@link com.crm.domain.Employee}
+	 * @return	{@link com.crm.domain.ws.hr.Employee}
 	 */
 	Employee selectEmployee(Integer employeeId);
 	
 	/**
 	 * 查询员工信息
 	 * @param employeeCode	员工编码
-	 * @return	{@link com.crm.domain.Employee}
+	 * @return	{@link com.crm.domain.ws.hr.Employee}
 	 */
 	Employee selectEmployee(String employeeCode);
 	

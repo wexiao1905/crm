@@ -2,8 +2,9 @@ package com.crm.domain.sell;
 
 import java.util.Date;
 
-import com.crm.domain.Employee;
 import com.crm.domain.base.Logger;
+import com.crm.domain.base.PlanType;
+import com.crm.domain.ws.hr.Employee;
 
 /**
  * 销售计划
@@ -17,6 +18,7 @@ public class Plan extends Logger {
 	private String status;		//计划状态
 	private Employee employee;	//计划人
 	private String content;		//计划内容
+	private PlanType type;		//计划类型
 	
 	public Integer getId() {
 		return id;

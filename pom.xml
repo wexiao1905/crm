@@ -23,6 +23,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<activiti.version>5.22.0</activiti.version>
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -75,12 +76,13 @@
 		<dependency>
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-engine</artifactId>
-			<version>5.22.0</version>
+			<version>${activiti.version}</version>
 		</dependency>
+		<!-- Acitivit Spring -->
 		<dependency>
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-spring-boot-starter-basic</artifactId>
-			<version>5.21.0</version>
+			<version>${activiti.version}</version>
 		</dependency>
 	</dependencies>
 

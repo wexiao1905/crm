@@ -3,13 +3,14 @@ package com.crm.domain.base;
 import java.io.Serializable;
 
 /**
- * 竞争分析类型
- * @author apehx
+ * 支付方式
+ * @author apeHx
  *
  */
-public class CompleteType implements Serializable {
+public class OrderPayType implements Serializable {
 	private Integer id;		//ID
-	private String name;	//竞争分析类型名称
+	private String name;	//支付名称
+	
 	public Integer getId() {
 		return id;
 	}

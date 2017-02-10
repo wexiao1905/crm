@@ -2,8 +2,8 @@ package com.crm.domain.sell;
 
 import java.util.Date;
 
-import com.crm.domain.Department;
 import com.crm.domain.base.Logger;
+import com.crm.domain.ws.hr.Department;
 /**
  * 销售预测
  * @author apeHx

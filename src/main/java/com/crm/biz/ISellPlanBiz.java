@@ -2,8 +2,8 @@ package com.crm.biz;
 
 import java.util.Date;
 
-import com.crm.domain.Employee;
 import com.crm.domain.sell.Plan;
+import com.crm.domain.ws.hr.Employee;
 import com.crm.util.Pages;
 
 /**

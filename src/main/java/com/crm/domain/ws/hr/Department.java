@@ -1,4 +1,4 @@
-package com.crm.domain;
+package com.crm.domain.ws.hr;
 
 import com.crm.domain.base.Logger;
 

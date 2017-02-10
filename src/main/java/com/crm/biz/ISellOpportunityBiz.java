@@ -1,7 +1,7 @@
 package com.crm.biz;
 
-import com.crm.domain.Employee;
 import com.crm.domain.sell.Opportunity;
+import com.crm.domain.ws.hr.Employee;
 import com.crm.util.Pages;
 
 /**

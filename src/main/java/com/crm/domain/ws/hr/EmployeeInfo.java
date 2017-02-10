@@ -1,4 +1,4 @@
-package com.crm.domain;
+package com.crm.domain.ws.hr;
 
 import com.crm.domain.base.Logger;
 
@@ -12,6 +12,8 @@ public class EmployeeInfo extends Logger {
 	private String username;	//登录ID
 	private String password;	//登录密码
 	private String telPhone;	//联系电话
+	private String ip;			//登录IP
+	private Integer status=0;	//在线状态(默认:0)	 0:离线	1:在线
 	
 	public String getUsername() {
 		return username;

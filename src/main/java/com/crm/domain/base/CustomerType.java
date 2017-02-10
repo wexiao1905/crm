@@ -1,15 +1,13 @@
 package com.crm.domain.base;
-
-import java.io.Serializable;
-
 /**
- * 竞争分析类型
- * @author apehx
+ * 客户资源类型
+ * @author apeHx
  *
  */
-public class CompleteType implements Serializable {
+public class CustomerType {
 	private Integer id;		//ID
-	private String name;	//竞争分析类型名称
+	private String name;	//客户资源类型名称
+	
 	public Integer getId() {
 		return id;
 	}

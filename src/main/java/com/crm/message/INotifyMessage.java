@@ -3,7 +3,7 @@ package com.crm.message;
 import com.crm.domain.Notify;
 
 /**
- * 公告消息
+ * 公告广播消息
  * @author apehx
  *
  */

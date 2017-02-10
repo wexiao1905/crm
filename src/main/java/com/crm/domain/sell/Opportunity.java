@@ -2,7 +2,6 @@ package com.crm.domain.sell;
 
 import java.util.Date;
 
-import com.crm.domain.Employee;
 import com.crm.domain.base.Logger;
 /**
  * 机会信息
@@ -10,6 +9,7 @@ import com.crm.domain.base.Logger;
  *
  */
 import com.crm.domain.base.OpportunityType;
+import com.crm.domain.ws.hr.Employee;
 public class Opportunity extends Logger {
 	private Integer id;				//ID
 	private String code;			//编码

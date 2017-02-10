@@ -1,6 +1,6 @@
 package com.crm.biz;
 
-import com.crm.domain.EmployeeInfo;
+import com.crm.domain.ws.hr.EmployeeInfo;
 
 /**
  * 个人信息管理
@@ -11,9 +11,18 @@ public interface IAdminEmployeeInfoBiz {
 	/**
 	 * 查看个人信息
 	 * @param employeeId	员工ID
-	 * @return	{@link com.crm.domain.EmployeeInfo}
+	 * @return	{@link com.crm.domain.ws.hr.EmployeeInfo}
 	 */
 	 EmployeeInfo selectEmployeeInfo(Integer employeeId);
+	 
+	 /**
+	  * 用户登录
+	  * @param userName	用户名
+	  * @param password	密码
+	  * @param ip 		登录IP
+	  * @return	{@link com.crm.domain.ws.hr.EmployeeInfo}
+	  */
+	 EmployeeInfo login(String userName,String password,String ip);
 	 
 	 /**
 	  * 修改密码

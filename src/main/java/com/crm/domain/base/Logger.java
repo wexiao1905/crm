@@ -3,7 +3,7 @@ package com.crm.domain.base;
 import java.io.Serializable;
 import java.util.Date;
 
-import com.crm.domain.Employee;
+import com.crm.domain.ws.hr.Employee;
 
 /**
  * 操作记录

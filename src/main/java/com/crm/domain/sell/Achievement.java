@@ -1,7 +1,7 @@
 package com.crm.domain.sell;
 
-import com.crm.domain.Employee;
 import com.crm.domain.base.Logger;
+import com.crm.domain.ws.hr.Employee;
 /**
  * 销售绩效
  * @author apeHx

@@ -3,6 +3,7 @@ package com.crm.domain;
 import java.util.List;
 
 import com.crm.domain.base.Logger;
+import com.crm.domain.ws.hr.Department;
 
 /**
  * 角色信息
